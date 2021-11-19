@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product-cart</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img
+          style="width: 50px; border-radius: 50%"
+          src="./images/top.jpg"
+          alt=""
+        />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Shoe collection</h1>
+        <button class="banner-btn">shop now</button>
+      </div>
+    </header>
+    <!-- end of hero -->
+    <!-- products -->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Products</h2>
+      </div>
+      <div class="products-center">
+        <!--<article class="product">
+          <div class="img-container">
+            <img
+              src="/images/product-1.jpeg"
+              alt="product"
+              class="product-img"
+            />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"> add to bag </i>
+            </button>
+          </div>
+          <h3>queen bed</h3>
+          <h4>$16</h4>
+        </article>-->
+      </div>
+    </section>
+    <!--end of products -->
+    <!-- cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>your cart</h2>
+        <div class="cart-content">
+          <!-- cart item -->
+          <div class="cart-item">
+            <!--<img src="/images/product-1.jpeg" alt="product" />
+              <div>
+                <h4>queen bed</h4>
+                <h5></h5>
+                <span class="remove-item">remove</span>
+              </div>
+              <div>
+                <i class="fas fa-chevron-up"></i>
+                <p class="item-amount"></p>
+                <i class="fas fa-chevron-down"></i>
+              </div>-->
+          </div>
+          <!-- end of cart item-->
+        </div>
+        <div class="cart-footer">
+          <h3>your total : $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- end of cart -->
+    <!-- contentful js -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- app js -->
+    <script src="app.js"></script>
+  </body>
+</html>
